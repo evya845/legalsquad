@@ -1,3 +1,23 @@
+# legalsquad
+legalsquad is an open platform that allows you to crowd source legal action.
+
+# The Problem
+Although we'd like to think that justice is blind, no matter if your'e rich or poor, most of the time it isn't. Proper representation is a key factor in delivering justice. Without a good lawyer on your side even the most simple legal procedure can become overwhelming. And proper representation isn't cheap. So all in all, it's challenging to ensure that every case is adjudicated based eniterly on it's merits, and not on the litigants bank balance.
+
+# The Pitch
+What if we could re-design the legal workflow to introduce the power of GitHub’s collaborative fork-and-merge method? A user with a legal issue could create a repository on the platform, describing their case upon a template for the legal document they need (like a complaint, a request for injunction and etc.). Contributors would have the ability to “clone” the existing legal document, make any changes they want, and then offer the user to merge those changes back into the original before they file the document in court.
+
+A legal endeavor could actually be a joint venture. In a platform like legalsquad every person can utilize the abilities of countless legal minds to solve their case. It's the merits of the case that receive the attention, and not money.
+Contributors, on the other side, get the opportunity to develop their skills, learn the ropes of the practice, and shine.
+
+# Initial Concerns
+1. *Isn't legalsquad risking the privacy of its users?* Well, the short answer is no. Using the platform can be totally anonymous. All you need to do is create a username and password, state your jurisdiction, and raise your claims. No one needs to know most of your personal information. Having that said, there always is a risk that your personal information is exposed to contributors that are trying to help ypu win your case. In order to solve this problem legalsquad has community standards. Using private information you found while aiding another user isn't cool. It isn't the way a good legalsquad acts. Contributors shouldn't violate users' resonable expectation of privacy. Its also illegal.
+2. *What if the opposing counsel gets a look at my legal documents before trial?* This is a valid concern. legalsquad has private repositories, but every contributor can always turn out to be an imposter. Firstly, using opposing side's repository is against legalsquad's community standards, and is illegal. Secondly, imposter contributors can't do much - your files can only be directly edited by you. Moreover, the legal procedure is actually meant to encourage discovery of claims in order to level the playing field, so your info will be out there eventually.
+
+# How To?
+The platform will build on wordpress, based on the core funtionality of wp post forking (https://github.com/post-forking/post-forking) and editflow (https://editflow.org/). 
+
+
 # Post Forking #
 
 [![Build Status](https://travis-ci.org/post-forking/post-forking.png)](https://travis-ci.org/post-forking/post-forking) [![Coverage Status](https://coveralls.io/repos/post-forking/post-forking/badge.png)](https://coveralls.io/r/post-forking/post-forking)
